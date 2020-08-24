@@ -31,7 +31,7 @@ services:
       context: ./
       dockerfile: development/web.dockerfile
     volumes:
-      - ./storage/logs/:/var/log/nginx
+      - ./storage/logs_2/:/var/log/nginx
     depends_on:
       - app 
   # The Database
@@ -50,7 +50,7 @@ services:
   load_balancer:
     container_name: load_balancer
     build: ./haproxy
-    ports:docke
+    ports:
       - 8080:8080
     expose: 
       - 8080
