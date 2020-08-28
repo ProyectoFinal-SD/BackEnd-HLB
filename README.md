@@ -1,2 +1,2 @@
 # BackEndHLB
-BackEnd para la aplicación del Hospital León Becerra
+BackEnd utilizado para el proyecto final de Sistemas Distribuidos
